@@ -18,6 +18,17 @@ System.out.printf("Volume: %.2f%n", v);
 System.out.printf("PI value: %.2f%n", calc.PI);
 
 para um raio */
+ 
+/*
+utilizando metodo estatico de outra classe sem precisar instanciar o objeto;
+System.out.print("Enter radius: ");
+double radius = sc.nextDouble();
+double c = Calculator.circumference(radius);
+double v = Calculator.volume(radius);
+System.out.printf("Circumference: %.2f%n", c);
+System.out.printf("Volume: %.2f%n", v);
+System.out.printf("PI value: %.2f%n", Calculator.PI);
+*/
 
 Locale.setDefault(Locale.US);
 Scanner sc = new Scanner(System.in);
