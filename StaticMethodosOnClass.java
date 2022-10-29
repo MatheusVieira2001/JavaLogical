@@ -5,6 +5,16 @@ public class StaticMethodosOnClass {
 public static final double PI = 3.14159;
 public static void main(String[] args) {
 /* circunferência e do volume de uma esfera
+ usando a class Calculator do Pacote Util,
+Calculator calc = new Calculator();
+System.out.print("Enter radius: ");
+double radius = sc.nextDouble();
+double c = calc.circumference(radius);
+double v = calc.volume(radius);
+System.out.printf("Circumference: %.2f%n", c);
+System.out.printf("Volume: %.2f%n", v);
+System.out.printf("PI value: %.2f%n", calc.PI);
+
 para um raio */
 
 Locale.setDefault(Locale.US);
