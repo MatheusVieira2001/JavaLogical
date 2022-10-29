@@ -6,6 +6,8 @@ public static final double PI = 3.14159;
 public static void main(String[] args) {
 /* circunferência e do volume de uma esfera
  usando a class Calculator do Pacote Util,
+ 
+import util.Calculator;
 Calculator calc = new Calculator();
 System.out.print("Enter radius: ");
 double radius = sc.nextDouble();
